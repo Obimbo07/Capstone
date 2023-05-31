@@ -10,7 +10,6 @@
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
-  - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
@@ -28,11 +27,9 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Capstone] <a name="about-project"></a>
+# 📖 [Capstone Project] <a name="about-project"></a>
 
-> 
-
-**[Capstone]** is a confrence page for my Microverse program.
+> Capstone is a confrence page to potray best use of HTML, CSS and Javascript. The page uses the semantics of HTML and CSS  to provide a good and responsive page, the page  optimizes  its layout to adapt to various screens sizes. The page has a section speakers which loads dynamically on page load. This page helps cement my work and provides the platform for my creativity and planning techniques through the soft skills gained, i am able to provide responsive web designs. 
 
 ## 🛠 Built With <a name="built-with"></a>
 
