@@ -4,6 +4,25 @@
   margin: 0;
 }
 
+/* Define common styles for the tag */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Apply common styles to different states of the tag */
+a:hover,
+a:active,
+a:visited {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Remove default outline when the tag is focused */
+a:focus {
+  outline: none;
+}
+
 header {
   box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
   color: #fff;
@@ -521,12 +540,12 @@ header {
 
   #top-nav {
     display: block;
+    background-color: #3e3e3e;
   }
 
   .top-nav-list {
-    background-color: #3e3e3e;
+    margin-right: 9%;
     display: flex;
-    width: 100%;
     gap: 2%;
     justify-content: end;
     list-style: none;
