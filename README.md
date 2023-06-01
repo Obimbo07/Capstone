@@ -122,12 +122,7 @@ To run tests, run the following command:
 
 ### Deployment
 
-You can deploy this project using:
-
-
-```
- Github Pages 
-```
+ Here is a link to the live demo of the website [Click here](https://obimbo07.github.io/Capstone/) 
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -174,9 +169,12 @@ If you like this project , please show your support by:
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-> Give credit to everyone who inspired your codebase.
+> I would like to thank Cindy Shin the author of the original design of the template in behance for a top-notch design. I thank you for sharing your design to the community, which inspires us to greater lengths in our creative innovations. I hope to see more of your incredible work in the near future. [Cindy shinn in behance](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015). 
 
-I would like to thank...
+Best regards,
+> Austine Obimbo
+
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

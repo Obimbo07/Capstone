@@ -6,7 +6,8 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="author" content="Austin obimbo">
         <title>Capstone Project</title>
-        <link rel="stylesheet" type="text/css" href="styles.css"> 
+        <link rel="stylesheet" type="text/css" href="styles.css">
+        <link rel="stylesheet" type="text/css" href="normalize.css"> 
     </head>
     <body>
        <header>
@@ -21,7 +22,7 @@
           </nav>
           <nav>
             <img id="hamberger" src="img/mobile_menu 1.png" onclick="openMenu()" alt="ham-btn">
-            <img class="logo"  src = "img/logo.png" alt="logo">
+            <a href="index.html" class=logo-link> <img class="logo"  src = "img/logo.png" alt="logo"> </a>
             <ul id="desktop-nav">
                 <a href="About.html"><li class="nav-linksDesktop">About</li></a>
                  <a href="index.html"> <li class="nav-linksDesktop">Program</li></a>
@@ -34,12 +35,15 @@
           <div class="drop-down" id="navMenu">
             <ul class="dropdown-menu">
              <h1 aria-hidden="true" class="times-Btn" id="menu-close" onclick="closeMenu()">&times;</h1>
-             <a href="index.html"><li class="menu-link" id="nav-btn" onclick="closeMenu()">About</li> </a>
-             <a href=""><li class="menu-link" id="nav-btn" onclick="closeMenu()">Program</li> </a>
-             <a href="#"><li class="menu-link" id="nav-btn" onclick="closeMenu()">Join</li> </a>
-             <a href="#"><li class="menu-link" id="nav-btn" onclick="closeMenu()">Sponsors</li> </a>
-             <a href="#"><li class="menu-link" id="nav-btn" onclick="closeMenu()">News</li> </a>
-             <a href="#"><li class="menu-link" id="nav-btn" onclick="closeMenu()">CC Campaign</li> </a>
+             <a href="About.html"><li class="menu-link" id="nav-btn" onclick="closeMenu()">About</li> </a>
+             <a href="index.html"><li class="menu-link" id="nav-btn" onclick="closeMenu()">Program</li> </a>
+             <a href="index.html"><li class="menu-link" id="nav-btn" onclick="closeMenu()">Join</li> </a>
+             <a href="index.html"><li class="menu-link" id="nav-btn" onclick="closeMenu()">Sponsors</li> </a>
+             <a href="index.html"><li class="menu-link" id="nav-btn" onclick="closeMenu()">News</li> </a>
+             <a href="index.html"><li class="menu-link" id="nav-btn" onclick="closeMenu()">CC Campaign</li> </a>
+             <a href="index.html"><li class="menu-link" id="nav-btn" onclick="closeMenu()">English</li> </a>
+             <a href="index.html"><li class="menu-link" id="nav-btn" onclick="closeMenu()">My Page</li> </a>
+             <a href="index.html"><li class="menu-link" id="nav-btn" onclick="closeMenu()">Log Out</li> </a>
             </ul>
         </div>
         </header>
@@ -47,7 +51,7 @@
             <div class="banner-hero">
             <div class="banner-quote"> 
                 <h3 class="hero-text" id="text1" >"Hello! STEM World"</h3>
-                <h2 class="hero-text text2">CREATIVE LEARNING INSPIRATION 2023</h2>
+                <h2 class="hero-text" id="text2">CREATIVE LEARNING INSPIRATION 2023</h2>
             </div>
             <div class="banner-text">
                 <p>A joyful celebration believing in the value of openness and sharing, creating a positive change with people from over 80 countries is taking place in May, in Nairobi.</p>
@@ -161,13 +165,13 @@
                </div>
             </div>
         </section>
-        <section id="footer">
+        <footer id="footer">
             <div class="footer-content">
               <img  src="img/cck-logo1 1.png" alt="footer-img">
              <div class="footer-credit">
-                <p>2015 Creative Commons Korea. Some Rights Reserved.</p>
+                <p id="home-credit">2015 Creative Commons Korea. Some Rights Reserved.</p>
             </div>
           </div>
-        </section>
+        </footer>
        <script src="index.js"></script> 
  </body>
