@@ -89,7 +89,7 @@ header {
   height: 468px;
   background-position: center;
   background-color: rgba(232, 232, 232, 0.7);
-  background-blend-mode: color;
+  background-blend-mode: overlay;
 }
 
 .banner-quote {
@@ -316,7 +316,7 @@ header {
   width: 100%;
   background-size: cover;
   background-color: rgba(232, 232, 232, 0.7);
-  background-blend-mode: color;
+  background-blend-mode: overlay;
 }
 
 .herocontent-text2 {
