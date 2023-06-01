@@ -88,6 +88,8 @@ header {
   background-size: cover;
   height: 468px;
   background-position: center;
+  background-color: rgba(232, 232, 232, 0.7);
+  background-blend-mode: color;
 }
 
 .banner-quote {
@@ -269,6 +271,12 @@ header {
   text-align: left;
 }
 
+.name-body {
+  border-bottom: 2px solid #d9d9d9;
+  padding: 1%;
+  width: 7%;
+}
+
 .speaker-title {
   font-family: 'Lato', sans-serif;
   font-size: 10px;
@@ -277,7 +285,6 @@ header {
   letter-spacing: -0.02em;
   text-align: left;
   color: #f78c89;
-  text-decoration: underline;
 }
 
 .speaker-img {
@@ -308,6 +315,8 @@ header {
   background-repeat: no-repeat;
   width: 100%;
   background-size: cover;
+  background-color: rgba(232, 232, 232, 0.7);
+  background-blend-mode: color;
 }
 
 .herocontent-text2 {

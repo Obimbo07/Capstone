@@ -15,14 +15,14 @@ document.addEventListener('DOMContentLoaded', () => {
       index: 0,
       nameImg: 'img/speaker_00.png',
       name: 'Yochai Benkler',
-      title: 'Ceo Adata Company',
+      title: 'Berkman Professor of Entrepreneurial Legal Studies at Harvard Law School',
       Description: 'Austin developed the whole company to support the STEM industry',
     },
     {
       index: 1,
       nameImg: 'img/speaker_01.png',
       name: 'Kilnam Chon',
-      title: 'Ceo Adata Company',
+      title: '',
       Description: 'Kilnam Chon helped bring the internet to Asia and is an outspoken advocate for the open web and digital com-mons. In 2012. he was inducted into the inaugural class of the Internet Society’s (ISOC) Internet Hall of Fame',
     },
     {
@@ -65,6 +65,7 @@ document.addEventListener('DOMContentLoaded', () => {
            <div class="speaker-info">
                <h6 class="speaker-name">${speaker.name}</h6>
                <h3 class="speaker-title">${speaker.title}</h3>
+               <hr class=name-body>
                <p class="speaker-description">${speaker.Description}</p>
            </div>
            
